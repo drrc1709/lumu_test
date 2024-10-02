@@ -23,8 +23,17 @@ This project provides a Python script to analyze a text file. It counts the numb
    pip install matplotlib
    ```
 
-3. The script will:
+## Usage
+Place your text in a file called texto.txt in the project directory.
 
-    * Count the words and characters.
-    * Print the word frequencies in descending order.
-    * Display a histogram showing the word frequencies.
+Run the script with the following command:
+
+```bash
+python main.py
+```
+
+The script will:
+
+* Count the words and characters.
+* Print the word frequencies in descending order.
+* Display a histogram showing the word frequencies.
