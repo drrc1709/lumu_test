@@ -1,0 +1,20 @@
+{
+  "name": "wordcounter_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf allure-results playwright-report test-results",
+    "test:allure": "npm run clean && npx playwright test wordcounter --reporter=allure-playwright && allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4",
+    "allure-playwright": "^3.0.3",
+    "playwright": "^1.47.2",
+    "rimraf": "^6.0.1"
+  }
+}
